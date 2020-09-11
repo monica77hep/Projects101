@@ -1,0 +1,27 @@
+.linear{
+    /* background: linear-gradient( to right, rgb(242, 222, 250), rgb(158, 103, 172)); */
+    color: rgb(14, 13, 13);
+    font-weight: bold;
+    background-color: #2ecc71;
+    animation: hue 11s linear 0s infinite reverse;
+    width: 100vw;
+  height: 100vh;
+    background: linear-gradient(105deg, rgba(255, 190, 0, 0), #ffbe00);
+    animation: hue 12s linear 1s infinite;
+
+    @keyframes hue {
+        to {
+          filter: hue-rotate(1turn);
+        }
+      }
+  }
+/* .granimate {
+    background-color: #2ecc71;
+    animation: hue 11s linear 0s infinite reverse;
+  }
+  .granimate::before {
+    background: linear-gradient(105deg, rgba(255, 190, 0, 0), #ffbe00);
+    animation: hue 12s linear 1s infinite;
+  }
+   */
+  
